@@ -13,12 +13,22 @@ import java.sql.SQLException;
  */
 public class Projet {
     
-    public void insert() throws SQLException{
-        
+    private int id;
+
+    public int getId() {
+        return id;
     }
-    
-    public static Projet getById(int id){
-    throw new UnsupportedOperationException("pas implemente");
+
+    public void setId(int id) {
+        this.id = id;
     }
-    
+
+    public void insert() throws SQLException {
+
+    }
+
+    public static Projet getById(int id) {
+        throw new UnsupportedOperationException("pas implemente");
+    }
+
 }
