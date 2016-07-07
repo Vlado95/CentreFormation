@@ -1,0 +1,4 @@
+creation du projet:
+CreerProjetServlet.java recuperer le formulaire formProjet.jsp avec get
+et envoi le nom d'un projet , le sujet le titre et la date limite par post pour creer le projet
+
