@@ -102,10 +102,10 @@ public class Projet {
         PreparedStatement stmt = connection.prepareStatement(sql);
         stmt.setInt(1, id_promotion);
         stmt.setInt(2, id_createur);
-        stmt.setString(1, titre);
-        stmt.setString(2, sujet);
-        stmt.setDate(1, (java.sql.Date) date_creation);
-        stmt.setDate(2, (java.sql.Date) date_limite);
+        stmt.setString(3, titre);
+        stmt.setString(4, sujet);
+        stmt.setDate(5, (java.sql.Date) date_creation);
+        stmt.setDate(6, (java.sql.Date) date_limite);
         stmt.executeUpdate();
         stmt.close();
         // Recuperer le id
